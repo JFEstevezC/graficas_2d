@@ -34,28 +34,30 @@ c.config(bg="yellow")
 
 # Cruz
 linea1 = c.create_line(BASE-305,5, BASE-155, 5, fill="dark violet", width=3)
-
 linea2 = c.create_line(BASE-305,5, BASE-305, ALTURA-145, fill="dark violet", width=3)
-
 linea3 = c.create_line(BASE-305, ALTURA-145, BASE-455, ALTURA-145, fill="dark violet", width=3)
-
 linea4 = c.create_line(BASE-455, ALTURA-145, BASE-455,ALTURA-75, fill="dark violet", width=3)
-
 linea5 = c.create_line(BASE-455,ALTURA-75, BASE-305, ALTURA-75, fill="dark violet", width=3)
-
 linea6 = c.create_line(BASE-305, ALTURA-75, BASE-305, ALTURA-5, fill="dark violet", width=3)
-
 linea7 = c.create_line(BASE-305, ALTURA-5, BASE-155, ALTURA-5, fill="dark violet", width=3)
-
 linea8 = c.create_line(BASE-155, ALTURA-5, BASE-155, ALTURA-75, fill="dark violet", width=3)
-
 linea9 = c.create_line(BASE-155, ALTURA-75, BASE-5, ALTURA-75, fill="dark violet", width=3)
-
 linea10 = c.create_line(BASE-5, ALTURA-75, BASE-5, ALTURA-145, fill="dark violet", width=3)
-
 linea11 = c.create_line(BASE-5, ALTURA-145, BASE-155, ALTURA-145, fill="dark violet", width=3)
-
 linea12 = c.create_line(BASE-155, ALTURA-145,BASE-155, 5, fill="dark violet", width=3)
 
+linea1= c.create_line(204, 33, 204, ALTURA-135, fill="NavajoWhite4", width=3)
+linea2= c.create_line(204, 33, BASE-204, 33, fill="NavajoWhite4", width=3)
+linea3= c.create_line(255, 33, 255, ALTURA-135, fill="NavajoWhite4", width=3)
+linea4= c.create_line(255, ALTURA-135, 306, ALTURA-135, fill="NavajoWhite4", width=3)
+linea5= c.create_line(306, ALTURA-135, 306, ALTURA-84, fill="NavajoWhite4", width=3)
+linea6= c.create_line(306, ALTURA-84, BASE-204, ALTURA-84, fill="NavajoWhite4", width=3)
+linea7= c.create_line(BASE-204, ALTURA-84, BASE-204, ALTURA-33, fill="NavajoWhite4", width=3)
+linea8= c.create_line(BASE-204, ALTURA-33, BASE-255, ALTURA-33, fill="NavajoWhite4", width=3)
+linea9= c.create_line(BASE-255, ALTURA-33, BASE-255, ALTURA-84, fill="NavajoWhite4", width=3)
+linea9= c.create_line(BASE-255, ALTURA-33, BASE-255, ALTURA-84, fill="NavajoWhite4", width=3)
+linea10= c.create_line(BASE-255, ALTURA-84,BASE-306, ALTURA-84,  fill="NavajoWhite4", width=3)
+linea11= c.create_line(BASE-306, ALTURA-84,BASE-306, ALTURA-135,  fill="NavajoWhite4", width=3)
+linea12= c.create_line(BASE-306, ALTURA-135,BASE-255, ALTURA-135,  fill="NavajoWhite4", width=3)
 
 ventana_principal.mainloop()
